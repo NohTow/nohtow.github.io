@@ -1,0 +1,3953 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Antoine Chaffin - Site web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Site Antoine Chaffin IT" />
+	<meta name="keywords" content="responsive, resume, personal, card, cv, cards, portfolio, antoine, chaffin" />
+	<meta name="author" content="chaffin" />
+
+	<!--
+		Load Fonts
+	-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+		integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+
+	<!--
+		Background Gradient
+	-->
+	<link rel="stylesheet" href="css/gradient.css" />
+
+	<!--
+		Template New-Skin
+	-->
+	<link rel="stylesheet" href="css/new-skin/new-skin.css" />
+
+	<!--
+		Template RTL
+	-->
+	<!--<link rel="stylesheet" href="css/rtl-new.css" />-->
+
+	<!--
+		Template Colors
+	-->
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const colorThemes = [
+				'css/template-colors/blue.css',
+				'css/template-colors/orange.css',
+				'css/template-colors/pink.css',
+				'css/template-colors/purple.css',
+				'css/template-colors/red.css',
+				'css/template-colors/green.css'
+			];
+
+			const randomTheme = colorThemes[Math.floor(Math.random() * colorThemes.length)];
+
+			const linkElement = document.createElement('link');
+			linkElement.rel = 'stylesheet';
+			linkElement.href = randomTheme;
+			document.head.appendChild(linkElement);
+		});
+	</script>
+	<!-- <link rel="stylesheet" href="css/demos/demo-1-colors.css" /> -->
+	<!-- <link rel="stylesheet" href="css/template-colors/blue.css" /> -->
+	<!-- <link rel="stylesheet" href="css/template-colors/orange.css" /> -->
+	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
+	<!-- <link rel="stylesheet" href="css/template-colors/purple.css" /> -->
+	<!-- <link rel="stylesheet" href="css/template-colors/red.css" /> -->
+	<!-- <link rel="stylesheet" href="css/template-colors/green.css" /> -->
+
+	<!--
+		Template Dark
+	-->
+	<!--<link rel="stylesheet" href="css/template-dark/dark.css" />-->
+
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--
+		Favicons
+	-->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	<!--
+		Bar css
+	-->
+	<link rel="stylesheet" href="css/bar.css" />
+
+	<!--
+		Light or Dark Mode
+	-->
+	<link rel="stylesheet" href="css/template-light/light.css" />
+
+</head>
+
+<body>
+	<div class="page new-skin">
+
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- background -->
+		<div class="background gradient">
+			<ul class="bg-bubbles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+
+		<!--
+			Container
+		-->
+		<div class="container opened" data-animation-in="fadeInUp" data-animation-out="fadeOutUp">
+
+			<!--
+				Header
+			-->
+			<header class="header">
+
+				<!-- header profile -->
+				<div class="profile">
+					<div class="title">Antoine Chaffin</div>
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>CS engineer</p>
+							<p>ML PhD</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- menu btn -->
+				<!-- <a href="#" class="menu-btn"><span></span></a> -->
+
+				<!-- menu -->
+				<div class="top-menu">
+					<ul>
+						<li class="active">
+							<a href="#about-card">
+								<span class="icon fa fa-user"></span>
+								<span class="link">About</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resume-card">
+								<span class="icon fa fa-list-ul"></span>
+								<span class="link">Resume</span>
+							</a>
+						</li>
+						<li>
+							<a href="#works-card">
+								<span class="icon fa fa-code"></span>
+								<span class="link">Code</span>
+							</a>
+						</li>
+						<li>
+							<a href="#blog-card">
+								<span class="icon fa fa-file-text-o"></span>
+								<span class="link">Publications</span>
+							</a>
+						</li>
+						<li>
+							<a href="#contacts-card">
+								<span class="icon fa fa-at"></span>
+								<span class="link">Contact</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</header>
+
+			<!--
+				Card - Started
+			-->
+			<div class="card-started" id="home-card">
+
+				<!--
+					Profile
+				-->
+				<div class="profile">
+
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(images/bg.jpg);"></div>
+
+					<!-- profile photo -->
+					<div class="image">
+						<img src="images/profile.png" alt="" />
+					</div>
+
+					<!-- profile titles -->
+					<div class="title">Antoine Chaffin</div>
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>CS Engineer</p>
+							<p>ML PhD</p>
+						</div>
+					</div>
+
+					<!-- profile socials -->
+					<div class="social">
+						<a target="_blank" href="https://twitter.com/antoine_chaffin"><span
+								class="fab fa-twitter"></span></a>
+						<a target="_blank" href="https://github.com/nohtow"><span class="fab fa-github"></span></a>
+						<a target="_blank" href="https://scholar.google.com/citations?user=GQ_tVhwAAAAJ"><span
+								class="ai ai-google-scholar"></span></a>
+						<a target="_blank" href="https://www.semanticscholar.org/author/2129106958"><span
+								class="ai ai-semantic-scholar"></span></a>
+						<a target="_blank" href="https://www.linkedin.com/in/antoine-chaffin/"><span
+								class="fab fa-linkedin"></span></a>
+					</div>
+					<!--Switch light/DarkMode -->
+					<div class="social" style="font-size:30px; margin-top:-5px">
+						<a href="#" onclick="changeCSS('css/template-light/light.css', 13);"><span
+								style="font-size: 30px" class="ion ion-ios-sunny"></span></a>
+						<a href="#" onclick="changeCSS('css/template-dark/dark.css', 13);"><span style="font-size: 30px"
+								class="ion ion-ios-moon"></span></a>
+					</div>
+
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a href="./ressources/CV_2025_Antoine_Chaffin_.pdf" class="lnk" download>
+							<span class="text">Download my CV</span>
+							<span class="ion ion-archive"></span>
+						</a>
+						<a href="#" class="lnk discover">
+							<span class="text">Contact me</span>
+							<span class="arrow"></span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!--
+				Card - About
+			-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+
+					<!--
+						About
+					-->
+					<div class="content about">
+
+						<!-- title -->
+						<div class="title">About me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="text-box">
+									<p>
+										Driven by a lifelong passion for <strong>science and technology</strong>, I
+										quickly recognized the potential offered by <strong>computer science</strong>,
+										particularly using <strong>artificial intelligence</strong>. </br>
+										This led me to undertake an <strong>engineering school</strong>, focusing on
+										computer science and acquiring proper coding practices. To keep studying science
+										and share it with others, I continued my academic journey by pursuing a
+										<strong>research-oriented master degree</strong> in computer science, which
+										eventually culminated in a <strong>Ph.D. program</strong>. </br>
+										Throughout my end-of-study internship and my Ph.D., I studied
+										<strong>multimodality and semantic indexation</strong>, aiming to effectively
+										bridge the gap between textual and visual modalities to detect and combat
+										misinformation. </br>
+										Alongside these multimodal aspects, I mostly focused on <strong>text
+											generation</strong>, with a particular emphasis on <strong>cooperative
+											generation</strong> that leverages external models to guide the generation
+										process. </br>
+										I finally studied how <strong>reinforcement learning</strong> is used to train
+										language models, to both integrate it into the cooperative generation paradigm
+										and study multimodal rewards. </br>
+									</p>
+								</div>
+								<div class="info-list">
+									<ul>
+										<li><strong>Age . . . . .</strong> 28</li>
+										<li><strong>Adress . . . .</strong> Nancy, France</li>
+										<li><strong>Status . . . . . . .</strong> ML PhD, CS Engineer</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+
+					<!--
+						Clients
+					-->
+					<div class="content clients">
+
+						<!-- title -->
+						<div class="title">Conference pictures</div>
+
+						<!-- content -->
+						<div class="row client-items">
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#ACL" class="has-popup-gallery">
+											<img src="images/conf_pic/ACL_1.jpg" alt="" />
+										</a>
+										<div id="ACL" class="mfp-hide">
+											<a href="images/conf_pic/ACL_1.jpg"></a>
+											<a href="images/conf_pic/ACL_2.jpg"></a>
+											<a href="images/conf_pic/ACL_3.png"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#ACL" class="name has-popup-gallery">ACL 2025</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#ICIP" class="has-popup-gallery">
+											<img src="images/conf_pic/ICIP_1.jpeg" alt="" />
+										</a>
+										<div id="ICIP" class="mfp-hide">
+											<a href="images/conf_pic/ICIP_1.jpeg"></a>
+
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#ICIP" class="name has-popup-gallery">ICIP 2024</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#Award" class="has-popup-gallery">
+											<img src="images/conf_pic/Thesis_Award/1.jpeg" alt="" />
+										</a>
+										<div id="Award" class="mfp-hide">
+											<a href="images/conf_pic/Thesis_Award/1.jpeg"></a>
+											<a href="images/conf_pic/Thesis_Award/2.jpeg"></a>
+											<a href="images/conf_pic/Thesis_Award/3.jpeg"></a>
+											<a href="images/conf_pic/Thesis_Award/4.jpeg"></a>
+											<a href="images/conf_pic/Thesis_Award/5.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#Award" class="name has-popup-gallery">ATALA 2024 Thesis Award</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#These" class="has-popup-gallery">
+											<img src="images/conf_pic/These_1.jpeg" alt="" />
+										</a>
+										<div id="These" class="mfp-hide">
+											<a href="images/conf_pic/These_1.jpeg"></a>
+											<a href="images/conf_pic/These_2.jpeg"></a>
+											<a href="images/conf_pic/These_4.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#These" class="name has-popup-gallery">PhD defense</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#TALN2023" class="has-popup-gallery">
+											<img src="images/conf_pic/TALN_5.jpeg" alt="" />
+										</a>
+										<div id="TALN2023" class="mfp-hide">
+											<a href="images/conf_pic/TALN_5.jpeg"></a>
+											<a href="images/conf_pic/TALN_6.jpeg"></a>
+											<a href="images/conf_pic/TALN_7.jpeg"></a>
+											<a href="images/conf_pic/TALN_8.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#TALN2023" class="name has-popup-gallery">TALN 2023</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#ICML" class="has-popup-gallery">
+											<img src="images/conf_pic/ICML_1.jpeg" alt="" />
+										</a>
+										<div id="ICML" class="mfp-hide">
+											<a href="images/conf_pic/ICML_1.jpeg"></a>
+											<a href="images/conf_pic/ICML_2.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#ICML" class="name has-popup-gallery">ICML 2022</a>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="images/conf_pic/NAACL.jpeg" class="has-popup-image">
+											<img src="images/conf_pic/NAACL.jpeg" alt="" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/conf_pic/NAACL.jpeg" class="name has-popup-image">NAACL 2022</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 grid-item border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#TALN2022" class="has-popup-gallery">
+											<img src="images/conf_pic/TALN_1.jpeg" alt="" />
+										</a>
+										<div id="TALN2022" class="mfp-hide">
+											<a href="images/conf_pic/TALN_1.jpeg"></a>
+											<a href="images/conf_pic/TALN_2.jpeg"></a>
+											<a href="images/conf_pic/TALN_3.jpeg"></a>
+											<a href="images/conf_pic/TALN_4.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#TALN2022" class="name has-popup-gallery">TALN 2022</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="images/conf_pic/LREC.jpeg" class="has-popup-image">
+											<img src="images/conf_pic/LREC.jpeg" alt="" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/conf_pic/LREC.jpeg" class="name has-popup-image">LREC 2022</a>
+									</div>
+								</div>
+							</div>
+							<!-- client item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="client-item">
+									<div class="image">
+										<a href="#NeurIPS" class="has-popup-gallery">
+											<img src="images/conf_pic/NeurIPS@Paris_1.jpeg" alt="" />
+										</a>
+										<div id="NeurIPS" class="mfp-hide">
+											<a href="images/conf_pic/NeurIPS@Paris_1.jpeg"></a>
+											<a href="images/conf_pic/NeurIPS@Paris_2.jpeg"></a>
+										</div>
+									</div>
+									<div class="desc">
+										<a href="#NeurIPS" class="name has-popup-gallery">NeurIPS@Paris 2021</a>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div class="revs-item">
+						<div class="text">
+							The First Law Of Papers says that research is a process. Do not look at where we are, look
+							at where we will be two more papers down the line.
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<!--
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="card-wrap">
+
+					<!--
+						Resume
+					-->
+					<div class="content resume">
+
+						<!-- title -->
+						<div class="title">Resume</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-briefcase"></i></div>
+									<div class="name">Experience</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">February 2024 - Today</div>
+										<div class="name">R&D Machine Learning Engineer</div>
+										<div class="company">LightOn</div>
+										<p>
+											I am currently working in LightOn's R&D team to improve the various
+											<strong>information retrieval systems</strong> and enhance the experience of
+											the company's various <strong>text generation tools</strong>.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">November 2021 - December 2021</div>
+										<div class="name">Visiting Researcher</div>
+										<div class="company">Sorbonne University</div>
+										<p>
+											I have been invited to do a one month internship to work with the MLIA team
+											on the subject of cooperative generation. This collaboration resulted in two
+											study on the subject.
+										</p>
+									</div>
+
+									<div class="resume-item border-line-h">
+										<div class="date">January 2021 - April 2021</div>
+										<div class="name">Teaching Assistant</div>
+										<div class="company">ESIR</div>
+										<p>
+											Supervision of the practical work and the project of the deep learning
+											module of students in 4th year of engineering school, allowing me to deepen
+											some basic notions of the domain, to work on my scientific communication
+											skills and to discover teaching.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">February 2021 - March 2021</div>
+										<div class="name">Teaching Assistant</div>
+										<div class="company">University of Rennes</div>
+										<p>
+											Supervision of students in L3 MIAGE at ISTIC during the data analysis
+											module. The module being less advanced than the one I taught at ESIR, it
+											allowed me to focus more on the transmission of elementary notions and the
+											basics of teaching.
+										</p>
+									</div>
+
+									<div class="resume-item border-line-h">
+										<div class="date">February 2020 - July 2020</div>
+										<div class="name">Trainee</div>
+										<div class="company">INRIA</div>
+										<p>
+											End-of-studies internship of my engineering degree as well as my master
+											degree in computer science research at <strong>IRISA</strong> within the
+											<strong>LinkMedia</strong> team on the subject of <strong>image repurposing
+												detection using multimodal artificial intelligence models</strong>.
+											</br>
+											<strong>Image repurposing</strong> is a particular case of fake news, in
+											which an image previously posted online is reused out of its context to
+											convey false information. To detect such cases of misinformation, it is
+											necessary to jointly process text and image representations that are
+											originally in disjoint spaces. It is in this difference that the difficulty
+											of multimodal studies lies. </br>
+
+											My <a href="./ressources/Antoine_Chaffin_Rapport_Stage_5A.pdf"
+												download>attached internship report <span
+													class="ion ion-document link-button"></span></a> contains the state
+											of the art in the image repurposing field as well as my contributions, the
+											analysis of the results and development paths for future studies.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">June 2019 - July 2019</div>
+										<div class="name">Trainee</div>
+										<div class="company">Them-is</div>
+										<p>
+											Realization of a project for the <strong>Basel-Mulhouse airport</strong>.
+											This project was a <strong>responsive and multilingual website</strong>
+											allowing to create requests to access applications and manage these
+											requests. The application has two parts : a form in which people can fill a
+											request and a portal for intuitive and efficient management of the requests.
+											</br>
+											Working <strong>independently</strong> allowed me to develop my skills in
+											project management and web development through the creation of the data
+											model, the choice of technologies and code structuration.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">July 2018 - June 2018</div>
+										<div class="name">Trainee</div>
+										<div class="company">Them-is</div>
+										<p>
+											Rebuilding of the compagny portfolio website using <strong>JSP</strong>.
+											Creation of a <strong>responsive design</strong>, functionality addition
+											<strong>(real time filtering, autocompletion, image edition tool)</strong>
+											and <strong>redesign of the data model</strong> for performance. </br>
+											Creation of an <strong>XML parsing</strong> application to extract log file.
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">June 2016 - June 2017</div>
+										<div class="name">Head of logistics</div>
+										<div class="company">AEIR Bebop</div>
+										<p>
+											Organisation and management of a team of 15 members to offer student
+											concerts at low prices. </br>
+											Creation of various <strong>visuals</strong> to promote events (Photoshop,
+											Illustrator, Premiere Pro).
+										</p>
+									</div>
+									<div class="resume-item">
+										<div class="date">June 2016 - July 2016</div>
+										<div class="name">Trainee</div>
+										<div class="company">INRS</div>
+										<p>
+											Implementation of an automation tool for the creation of documents related
+											to the management of INRS training courses, via the creation of
+											<strong>document templates</strong> in which the values will be replaced by
+											those associated with the dossier in progress (name of the training
+											applicant, duration of the courses, price, etc.).
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- education -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="ion ion-university"></i></div>
+									<div class="name">Education</div>
+								</div>
+								<div class="resume-items">
+									<!-- <div class="resume-item border-line-h active"> -->
+									<div class="resume-item border-line-h">
+										<div class="date">September 2020 - November 2023</div>
+										<!-- <div class="name"><strong>PhD</strong></div> -->
+										<div class="name">Industrial PhD</div>
+										<div class="name"><em><strong>ATALA 2024 Thesis Award</strong></em></div>
+										<div class="company">INRIA, IMATAG</div>
+
+										<p>
+											Following my end-of-studies internship dealing with the use of multimodal
+											artificial intelligence models for image repurposing detection, I decided to
+											continue in this field by working on a <strong>thesis on the use of
+												multimodal models in the fight against fake news.</strong> </br>
+											This CIFRE thesis is done in collaboration with <strong>IMATAG</strong>
+											which collaborates with <strong>various journalistic organizations</strong>
+											as well as the <strong>LinkMedia team</strong> of IRISA which is specialized
+											in multimodal studies. </br>
+											The thesis manuscript, slides and recording of the defense can <a
+												href="#popup-thesis" class="has-popup-media">be found here <span
+													class="ion ion-document link-button"></span></a>.
+									</div>
+
+									<div class="resume-item border-line-h">
+										<div class="date">2019-2020</div>
+										<!-- <div class="name">Master</div> -->
+										<div class="name">M.Sc. Degree (Research in Computer Science)</div>
+										<div class="name"><em><strong>First class honours</strong></em></div>
+										<div class="company">Rennes 1 University</div>
+										<p>
+
+											During last year of engineering school, realization of a double degree in
+											computer science research. The courses were oriented towards
+											<strong>artificial intelligence</strong> in various domains but more
+											specifically <strong>multimedia technologies (images, videos and
+												text)</strong>. </br>
+											These courses allowed me to acquire both basic knowledge and advanced
+											concepts in artificial intelligence, but also to discover the research
+											environment through r<strong>eading and writing papers as well as
+												presentations</strong>.
+										</p>
+									</div>
+
+									<div class="resume-item border-line-h">
+										<div class="date">2015 - 2020</div>
+										<!-- <div class="name">Engineering Degree</div> -->
+										<div class="name">Engineering Degree</div>
+										<div class="company">INSA Rennes</div>
+										<p>
+											Preparatory class and engineering school, <strong>IT department</strong>.
+											</br>
+											Fast pace to learn new skills quickly and acquisition of scientific culture.
+											</br>
+											Learning of concepts related to computer engineering:
+										<ul>
+											<li> • Development in various languages (Java, Python, JavaScript, C,
+												C++, OCaml, prolog ...)
+											</li>
+											<li> • Database management and associated models (DAO, SQL)
+											</li>
+											<li> • Software engineering (design patterns, test methods, data structure
+												...)</li>
+											<li> • Various fields specific to information systems (artificial
+												intelligence, computer security, architecture, networks, graph theory,
+												etc.).</li>
+										</ul>
+										Acquisition of project management skills (version management, writing different
+										types of reports, work allocation, time estimation)
+										</p>
+									</div>
+									<div class="resume-item border-line-h">
+										<div class="date">January 2019 - May 2019</div>
+										<!-- <div class="name">International Exchange</div> -->
+										<div class="name">International Exchange</div>
+										<div class="company">Polytéchnique Montréal</div>
+										<p>
+											Deepened my knowledge of <strong>entrepreneurship and innovation</strong> as
+											well as <strong>networks and computer security</strong>, discovered
+											<strong>multimedia compression methods</strong> and learned <strong>rigorous
+												software testing</strong> methodologies.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Skills
+					-->
+					<div class="content skills">
+
+						<!-- title -->
+						<div class="title">Skills</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list dotted">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-flag"></i></div>
+										<div class="name">Languages</div>
+									</div>
+									<ul>
+										<li class="border-line-h">
+											<div class="name">French (native speaker)</div>
+											<div class="progress">
+												<div class="percentage" style="width:100%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h">
+											<div class="name">English</div>
+											<div class="progress">
+												<div class="percentage" style="width:80%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h">
+											<div class="name">German</div>
+											<div class="progress">
+												<div class="percentage" style="width:40%;"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-code"></i></div>
+										<div class="name">Coding</div>
+									</div>
+									<ul>
+										<li>
+											<div class="name">Python</div>
+										</li>
+										<li>
+											<div class="name">PyTorch</div>
+										</li>
+										<li>
+											<div class="name">Java</div>
+										</li>
+										<li>
+											<div class="name">Javascript / Typescript</div>
+										</li>
+										<li>
+											<div class="name">Web dev</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+					<!--
+						Studied domain
+					-->
+					<div class="content fuct">
+
+						<!-- title -->
+						<div class="title">Studied domain</div>
+
+						<!-- content -->
+						<div class="row fuct-items">
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-android-expand"></span></div>
+									<div class="name">Artificial Intelligence</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-ios-film"></span></div>
+									<div class="name">Multimedia</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-android-lock"></span></div>
+									<div class="name">Security</div>
+								</div>
+							</div>
+
+							<!-- fuct item -->
+							<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+								<div class="fuct-item">
+									<div class="icon"><span class="ion ion-cloud"></span></div>
+									<div class="name">Networks</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="card-wrap">
+
+					<!--
+						Works
+					-->
+					<div class="content works">
+
+						<!-- title -->
+						<div class="title">Projects</div>
+
+						<!-- filters -->
+						<div class="filter-menu filter-button-group">
+							<div class="f_btn active">
+								<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="java" />Java</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="python" />Python</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="javascript" />Javascript</label>
+							</div>
+							<div class="f_btn">
+								<label><input type="radio" name="fl_radio" value="ia" />IA</label>
+							</div>
+						</div>
+
+						<!-- content -->
+						<div class="row grid-items border-line-v">
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git10" class="has-popup-media">
+											<img src="images/works/PyLate.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git10" class="name has-popup-media">PyLate</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git10" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/PyLate.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>PyLate</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															We introduce <strong>PyLate</strong>, a flexible library to
+															train and experiment with ColBERT models.</br>
+															ColBERT models are encoders used for retrieval that exhibit
+															strong performance, especially on out-of-domain data. Yet,
+															despite growing interest, few models are being
+															released.</br>
+															PyLate aims to fill this gap by providing a modular library
+															built on the widely-used
+															<strong>sentence-transformers</strong> framework, making it
+															both accessible and efficient!
+														</p>
+													</div>
+													<a href="https://github.com/lightonai/pylate" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+													<a style="float:right"
+														href="https://x.com/antoine_chaffin/status/1829165644794749413"
+														target="_blank" class="button">
+														<span class="text">Introduction thread</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git9" class="has-popup-media">
+											<img src="images/works/WTF-RL.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git9" class="name has-popup-media">WTF-RL</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git9" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/WTF-RL.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>WTF-RL</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															The code of the paper <a href="#popup-wtfrl"
+																class="name has-popup-media"><em>Distinctive Image
+																	Captioning: Leveraging Ground Truth Captions in CLIP
+																	Guided Reinforcement Learning</em></a> has been made
+															publicly to allow reproduction and enable further research
+															on training both models conjointly.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/WTF-RL" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git8" class="has-popup-media">
+											<img src="images/works/therapy.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git8" class="name has-popup-media">Therapy</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git8" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/therapy.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Therapy</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															The code of the paper <a href="#popup-therapy"
+																class="name has-popup-media"><em>"Honey, Tell Me What's
+																	Wrong'', Global Explainability of NLP Models through
+																	Cooperative Generation</em></a> has been made
+															publicly to encourage the exploration of cooperative
+															generation as an explanation method.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/therapy" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git7" class="has-popup-media">
+											<img src="images/works/ppl-mcts.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git7" class="name has-popup-media">PPL-MCTS</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git7" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/ppl-mcts.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>PPL-MCTS</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															The code of the paper <a href="#popup-PPLMCTS"
+																class="name has-popup-media"><em>PPL-MCTS: Constrained
+																	Textual Generation Through Discriminator-Guided MCTS
+																	Decoding</em></a> as well as the follow-up study <a
+																href="#popup-whichdisc"
+																class="name has-popup-media"><em>Which Discriminator for
+																	Cooperative Text Generation?</em></a> has been made
+															publicly available on Github to allow reproduction and
+															futher experimentations in the domain of coperative
+															generation and constrained text generation.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/PPL-MCTS" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item java border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git1" class="has-popup-media">
+											<img src="images/works/cloud.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git1" class="name has-popup-media">File manager
+											(Server & Client)</a>
+										<div class="category">Java</div>
+									</div>
+									<div id="popup-git1" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/cloud.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>File manager (Server & Client)</h1>
+													<div class="blog-detail">Java</div>
+													<div class="blog-content">
+														<p>
+															For a practical work of INF3405 at Polytechnique Montréal,
+															we created a server that allow to store files and download
+															them remotly. </br>
+															This project has been made in plain Java without any
+															external libs. Main points of the project are:
+														</p>
+														<ul class="list-style">
+															<li>Creation of a multi threaded server (one thread per
+																connection)</li>
+															<li>Verification of user inputs (IP adress, port, commands)
+															</li>
+															<li>Sockets communication</li>
+															<li>Authentification system and account management</li>
+															<li>Server side clear and detailed logs</li>
+															<li>Intuitive UX</li>
+														</ul>
+														<p>
+															All objectives have been achieved and the final code is
+															totally functional. </br>
+															Since the project has been done for school, some useful
+															functionalities have not been implemented to fit the
+															subject. </br>
+															To be really used in practice, we should at least store
+															hashed passwords and be able to handle subfolders (cd
+															function). </br>
+															Source code, executables and documentation are available on
+															Github.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/INF3405-TP1" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item javascript ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git2" class="has-popup-media">
+											<img src="images/works/puissance4.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git2" class="name has-popup-media">Connect 4 with minmax
+											algorithm & alpha-beta pruning</a>
+										<div class="category">Javascript</div>
+									</div>
+									<div id="popup-git2" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/puissance4.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Connect 4 with minmax algorithm & alpha-beta pruning</h1>
+													<div class="blog-detail">Javascript</div>
+													<div class="blog-content">
+														<p>
+															I made a Javascript connect 4 when I was learning to create
+															web layouts and tried to implement an artificial
+															intelligence before giving up due to lack of time. </br>
+															After learning more about AI, I decided to try again and
+															implement a minmax algorithm with alpha-beta pruning. </br>
+															Source code and documentation are available on Github and
+															the project is deployed on my website, do not hesitate to
+															check the code or try the game !</br>
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/PowerfullP4" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+													<a style="float:right" href="https://antoine.chaffin.fr/p4"
+														target="_blank" class="button">
+														<span class="text">Play against the AI</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git3" class="has-popup-media">
+											<img src="images/works/got.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git3" class="name has-popup-media">Game of Thrones script
+											generator</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git3" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Game of Thrones script generator</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															Because I did not like the last season of Game of Thrones, I
+															decided (as a joke) to create a neural network able to
+															generator GoT scripts. </br>
+															I used an Recurrent Neural Network (RNN) and trained it on
+															the first 7 seasons. It learnt to generate sentences that
+															look like GoT scripts. </br>
+															The code is available on Github and you can also check the
+															results of an integral season.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/Game-Of-Throne-Simulator"
+														target="_blank" class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+													<a style="float:right"
+														href="https://hackmd.io/0OimDxdUTPK6jvC-KweQNw" target="_blank"
+														class="button">
+														<span class="text">Read a season</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git6" class="has-popup-media">
+											<img src="images/works/BibTex.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git6" class="name has-popup-media">BibGenerator</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git6" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/BibTex.jpg" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>BibGenerator</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															BibGenerator is a script used to generate .bib from a list
+															of paper names. It uses the API made available by DBLP to
+															search for references given names contained in the list.
+														</p>
+													</div>
+													<a href="https://github.com/NohTow/BibGenerator" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git4" class="has-popup-media">
+											<img src="images/works/premoji.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git4" class="name has-popup-media">Premoji</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git4" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/premoji.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Premoji</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															Premoji is a master project on classifying tweets based on
+															the emoji used. The goal was to try different type of models
+															and compare them. We decided to test the following list of
+															models: Logistic Regression, Random Forests, Multilayer
+															Perceptron, Support Vector Machine and an LSTM that takes
+															Word2Vec embeddings of the tweets as input.
+														</p>
+													</div>
+													<a href="https://github.com/Borderlands-4/Premoji/tree/master"
+														target="_blank" class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- work item design -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item python ia border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="#popup-git5" class="has-popup-media">
+											<img src="images/works/TSExplanation.png" alt="" />
+											<span class="info">
+												<span class="ion ion-images"></span>
+											</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="#popup-git5" class="name has-popup-media">TSExplanation</a>
+										<div class="category">Python</div>
+									</div>
+									<div id="popup-git5" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<div class="image">
+												<img src="images/works/TSExplanation.png" alt="">
+											</div>
+											<div class="desc">
+												<div class="post-box">
+													<h1>Premoji</h1>
+													<div class="blog-detail">Python</div>
+													<div class="blog-content">
+														<p>
+															4th year engineering school project on the explainability of
+															time series black box classifiers.
+														</p>
+													</div>
+													<a href="https://github.com/tangimds/TSExplanation" target="_blank"
+														class="button">
+														<span class="text">Check on Github</span>
+														<span class="arrow"></span>
+													</a>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Blog
+			-->
+			<div class="card-inner blog" id="blog-card">
+				<div class="card-wrap">
+
+					<!-- Blog -->
+					<div class="content blog">
+
+						<!-- title -->
+						<div class="title">
+							<span>Publications</span>
+						</div>
+
+						<!-- content -->
+						<div class="row border-line-v">
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-bioclinical" class="name has-popup-media">BioClinical
+											ModernBERT: A
+											State-of-the-Art Long-Context Encoder for Biomedical and Clinical NLP
+											(2025)</a>
+										<div class="category">Thomas Sounack, Joshua Davis, Brigitte Durieux,
+											<strong>Antoine Chaffin</strong>, Tom J. Pollard, Eric Lehman, Alistair E.
+											W. Johnson, Matthew McDermott, Tristan Naumann, Charlotta Lindvall
+										</div>
+										<a target="_blank" href="https://arxiv.org/abs/2506.10896"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/lindvalllab/BioClinical-ModernBERT">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank" href="https://x.com/tsounack/status/1933541506092056882">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+									</div>
+									<div id="popup-bioclinical" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>BioClinical ModernBERT: A
+														State-of-the-Art Long-Context Encoder for Biomedical and
+														Clinical NLP
+														(2025)</h1>
+													<div class="blog-detail">Thomas Sounack, Joshua Davis, Brigitte
+														Durieux,
+														<strong>Antoine Chaffin</strong>, Tom J. Pollard, Eric Lehman,
+														Alistair E.
+														W. Johnson, Matthew McDermott, Tristan Naumann, Charlotta
+														Lindvall
+													</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Encoder-based transformer models are central to biomedical
+															and clinical Natural Language Processing (NLP), as their
+															bidirectional self-attention makes them well-suited for
+															efficiently extracting structured information from
+															unstructured text through discriminative tasks. However,
+															encoders have seen slower development compared to decoder
+															models, leading to limited domain adaptation in biomedical
+															and clinical settings. We introduce BioClinical ModernBERT,
+															a domain-adapted encoder that builds on the recent
+															ModernBERT release, incorporating long-context processing
+															and substantial improvements in speed and performance for
+															biomedical and clinical NLP. BioClinical ModernBERT is
+															developed through continued pretraining on the largest
+															biomedical and clinical corpus to date, with over 53.5
+															billion tokens, and addresses a key limitation of prior
+															clinical encoders by leveraging 20 datasets from diverse
+															institutions, domains, and geographic regions, rather than
+															relying on data from a single source. It outperforms
+															existing biomedical and clinical encoders on four downstream
+															tasks spanning a broad range of use cases. We release both
+															base (150M parameters) and large (396M parameters) versions
+															of BioClinical ModernBERT, along with training checkpoints
+															to support further research.
+														</p>
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@misc{sounack2025bioclinicalmodernbertstateoftheartlongcontext,
+																	</br> &emsp;
+																	title={BioClinical ModernBERT: A State-of-the-Art
+																	Long-Context Encoder for Biomedical and Clinical
+																	NLP}, </br> &emsp;
+																	author={Thomas Sounack and Joshua Davis and Brigitte
+																	Durieux and Antoine Chaffin and Tom J. Pollard and
+																	Eric Lehman and Alistair E. W. Johnson and Matthew
+																	McDermott and Tristan Naumann and Charlotta
+																	Lindvall}, </br> &emsp;
+																	year={2025}, </br> &emsp;
+																	eprint={2506.10896}, </br> &emsp;
+																	archivePrefix={arXiv}, </br> &emsp;
+																	primaryClass={cs.CL}, </br> &emsp;
+																	url={https://arxiv.org/abs/2506.10896}, </br> &emsp;
+																	}
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2506.10896"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/lindvalllab/BioClinical-ModernBERT">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://x.com/tsounack/status/1933541506092056882">
+																		<span class="fab fa-twitter link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2508.03555"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://lightonai.github.io/pylate/" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-pylate" class="name has-popup-media">PyLate: Flexible Training
+											and Retrieval for Late Interaction Models (2025)</a>
+										<div class="category"><strong>Antoine Chaffin</strong>, Raphaël Sourty</div>
+										<a target="_blank" href="https://arxiv.org/abs/2508.03555">
+											<span class="date">CIKM 2025</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2508.03555"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://lightonai.github.io/pylate/">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://x.com/antoine_chaffin/status/1829165644794749413">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+									</div>
+									<div id="popup-pylate" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>PyLate: Flexible Training
+														and Retrieval for Late Interaction Models (2025)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong>, Raphaël
+														Sourty</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Neural ranking has become a cornerstone of modern
+															information retrieval. While single vector search remains
+															the dominant paradigm, it suffers from the shortcoming of
+															compressing all the information into a single vector. This
+															compression leads to notable performance degradation in
+															out-of-domain, long-context, and reasoning-intensive
+															retrieval tasks. Multi-vector approaches pioneered by
+															ColBERT aim to address these limitations by preserving
+															individual token embeddings and computing similarity via the
+															MaxSim operator. This architecture has demonstrated superior
+															empirical advantages, including enhanced out-of-domain
+															generalization, long-context handling, and performance in
+															complex retrieval scenarios. Despite these compelling
+															empirical results and clear theoretical advantages, the
+															practical adoption and public availability of late
+															interaction models remain low compared to their
+															single-vector counterparts, primarily due to a lack of
+															accessible and modular tools for training and experimenting
+															with such models. To bridge this gap, we introduce PyLate, a
+															streamlined library built on top of Sentence Transformers to
+															support multi-vector architectures natively, inheriting its
+															efficient training, advanced logging, and automated model
+															card generation while requiring minimal code changes to code
+															templates users are already familiar with. By offering
+															multi-vector-specific features such as efficient indexes,
+															PyLate aims to accelerate research and real-world
+															application of late interaction models, thereby unlocking
+															their full potential in modern IR systems. Finally, PyLate
+															has already enabled the development of state-of-the-art
+															models, including GTE-ModernColBERT and
+															Reason-ModernColBERT, demonstrating its practical utility
+															for both research and production environments.
+														</p>
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{PyLate, </br> &emsp;
+																	author = {Chaffin, Antoine and Sourty, Raphaël},
+																	</br> &emsp;
+																	title = {PyLate: Flexible Training and Retrieval for
+																	Late Interaction Models},
+																	year = {2025},</br> &emsp;
+																	publisher = {Association for Computing Machinery},
+																	</br> &emsp;
+																	booktitle = {Proceedings of the 34th ACM
+																	International Conference on Information and
+																	Knowledge Management}, </br> &emsp;
+																	series = {CIKM '25} </br> &emsp;
+																	}
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2508.03555">
+																		<span class="date">CIKM 2025</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2508.03555"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://lightonai.github.io/pylate/">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://x.com/antoine_chaffin/status/1829165644794749413">
+																		<span class="fab fa-twitter link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2508.03555"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://lightonai.github.io/pylate/" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-blip2idc" class="name has-popup-media">Reframing Image
+											Difference Captioning with BLIP2IDC and Synthetic
+											Augmentation (2025)</a>
+										<div class="category">Gautier Evennou, <strong>Antoine Chaffin</strong>, Vivien
+											Chappelier, Ewa Kijak</div>
+										<a target="_blank"
+											href="https://www.computer.org/csdl/proceedings-article/wacv/2025/108300b392/25KnmLehx4c">
+											<span class="date">WACV 2025</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2412.15939"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/gautierevn/BLIP2IDC">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://x.com/antoine_chaffin/status/1829165644794749413">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+									</div>
+									<div id="popup-blip2idc" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Reframing Image
+														Difference Captioning with BLIP2IDC and Synthetic
+														Augmentation (2025)</h1>
+													<div class="blog-detail">Gautier Evennou, <strong>Antoine
+															Chaffin</strong>, Vivien
+														Chappelier, Ewa Kijak</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															The rise of the generative models quality during the past
+															years enabled the generation of edited variations of images
+															at an important scale. To counter the harmful effects of
+															such technology, the Image Difference Captioning (IDC) task
+															aims to describe the differences between two images. While
+															this task is successfully handled for simple 3D rendered
+															images, it struggles on real-world images. The reason is
+															twofold: the training data-scarcity, and the difficulty to
+															capture fine-grained differences between complex images. To
+															address those issues, we propose in this paper a simple yet
+															effective framework to both adapt existing image captioning
+															models to the IDC task and augment IDC datasets. We
+															introduce BLIP2IDC, an adaptation of BLIP2 to the IDC task
+															at low computational cost, and show it outperforms
+															two-streams approaches by a significant margin on real-world
+															IDC datasets. We also propose to use synthetic augmentation
+															to improve the performance of IDC models in an agnostic
+															fashion. We show that our synthetic augmentation strategy
+															provides high quality data, leading to a challenging new
+															dataset well-suited for IDC named Syned1.
+														</p>
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@misc{blip2idc, </br> &emsp;
+																	author = {Gautier Evennou and
+																	Antoine Chaffin and
+																	Vivien Chappelier and
+																	Ewa Kijak}, </br> &emsp;
+																	title = {Reframing Image Difference Captioning with
+																	{BLIP2IDC} and Synthetic
+																	Augmentation}, </br> &emsp;
+																	booktitle = {Proceedings of the 2025 Winter
+																	Conference on Applications
+																	of Computer Vision, WACV 2025}, </br> &emsp;
+																	year = {2025}, </br> &emsp;
+																	}
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://www.computer.org/csdl/proceedings-article/wacv/2025/108300b392/25KnmLehx4c">
+																		<span class="date">WACV 2025</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2412.15939"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/gautierevn/BLIP2IDC">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2412.15939"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/gautierevn/BLIP2IDC" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-modernbert" class="name has-popup-media">Smarter, Better,
+											Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient,
+											and Long Context Finetuning and Inference (2024)</a>
+										<div class="category">Benjamin Warner, <strong>Antoine Chaffin</strong>,
+											Benjamin Clavié, Orion Weller, Oskar Hallström, Said Taghadouini, Alexis
+											Gallagher, Raja Biswas, Faisal Ladhak, Tom Aarsen, Nathan Cooper, Griffin
+											Adams, Jeremy Howard, Iacopo Poli</div>
+										<a target="_blank" href="https://arxiv.org/abs/2412.13663"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/AnswerDotAI/ModernBERT">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://x.com/antoine_chaffin/status/1869785735601213596">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="https://huggingface.co/blog/modernbert">
+											<span class="link-button"
+												style="font-style: normal; filter: grayscale(100%);">🤗</span>
+										</a>
+										<a target="_blank" href="./images/posters/ModernBERT_ACL_Poster.pdf">
+											<span class="ion ion-image link-button"></span>
+										</a>
+									</div>
+									<div id="popup-modernbert" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder
+														for Fast, Memory Efficient, and Long Context Finetuning and
+														Inference (2024)</h1>
+													<div class="blog-detail">Benjamin Warner, <strong>Antoine
+															Chaffin</strong>, Benjamin Clavié, Orion Weller, Oskar
+														Hallström, Said Taghadouini, Alexis Gallagher, Raja Biswas,
+														Faisal Ladhak, Tom Aarsen, Nathan Cooper, Griffin Adams, Jeremy
+														Howard, Iacopo Poli</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Encoder-only transformer models such as BERT offer a great
+															performance-size tradeoff for retrieval and classification
+															tasks with respect to larger decoder-only models. Despite
+															being the workhorse of numerous production pipelines, there
+															have been limited Pareto improvements to BERT since its
+															release. In this paper, we introduce ModernBERT, bringing
+															modern model optimizations to encoder-only models and
+															representing a major Pareto improvement over older encoders.
+															Trained on 2 trillion tokens with a native 8192 sequence
+															length, ModernBERT models exhibit state-of-the-art results
+															on a large pool of evaluations encompassing diverse
+															classification tasks and both single and multi-vector
+															retrieval on different domains (including code). In addition
+															to strong downstream performance, ModernBERT is also the
+															most speed and memory efficient encoder and is designed for
+															inference on common GPUs.
+														</p>
+
+
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{warner-etal-2025-smarter, </br>
+																	&emsp;
+																	title = "Smarter, Better, Faster, Longer: A Modern
+																	Bidirectional Encoder for Fast, Memory Efficient,
+																	and Long Context Finetuning and Inference", </br>
+																	&emsp;
+																	author = {Warner, Benjamin and
+																	Chaffin, Antoine and
+																	Clavi{\'e}, Benjamin and
+																	Weller, Orion and
+																	Hallstr{\"o}m, Oskar and
+																	Taghadouini, Said and
+																	Gallagher, Alexis and
+																	Biswas, Raja and
+																	Ladhak, Faisal and
+																	Aarsen, Tom and
+																	Adams, Griffin Thomas and
+																	Howard, Jeremy and
+																	Poli, Iacopo},
+																	editor = "Che, Wanxiang and
+																	Nabende, Joyce and
+																	Shutova, Ekaterina and
+																	Pilehvar, Mohammad Taher",
+																	booktitle = "Proceedings of the 63rd Annual Meeting
+																	of the Association for Computational Linguistics
+																	(Volume 1: Long Papers)", </br> &emsp;
+																	month = jul, </br> &emsp;
+																	year = "2025", </br> &emsp;
+																	address = "Vienna, Austria", </br> &emsp;
+																	publisher = "Association for Computational
+																	Linguistics", </br> &emsp;
+																	url = "https://aclanthology.org/2025.acl-long.127/",
+																	</br> &emsp;
+																	doi = "10.18653/v1/2025.acl-long.127", </br> &emsp;
+																	pages = "2526--2547", </br> &emsp;
+																	ISBN = "979-8-89176-251-0", </br> &emsp;
+																	}
+
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2412.13663"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/AnswerDotAI/ModernBERT">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://x.com/antoine_chaffin/status/1869785735601213596">
+																		<span class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://huggingface.co/blog/modernbert">
+																		<span class="fab fa-google link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/ModernBERT_ACL_Poster.pdf">
+																		<span class="ion ion-image link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2412.13663"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://huggingface.co/blog/modernbert" class="button">
+														<span class="text">Read the blogpost</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-pooling" class="name has-popup-media">Reducing the Footprint of
+											Multi-Vector Retrieval with Minimal Performance Impact via Token Pooling
+											(2024)</a>
+										<div class="category">Benjamin Clavié, <strong>Antoine Chaffin</strong>, Griffin
+											Adams</div>
+										<a target="_blank" href="https://arxiv.org/abs/2409.14683"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://lightonai.github.io/pylate/documentation/retrieval/#colbert-retrieval">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank" href="https://x.com/bclavie/status/1806345341270213041">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="https://www.answer.ai/posts/colbert-pooling.html">
+											<span class="fab fa-google link-button"></span>
+										</a>
+									</div>
+									<div id="popup-pooling" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Reducing the Footprint of Multi-Vector Retrieval with Minimal
+														Performance Impact via Token Pooling (2024)</h1>
+													<div class="blog-detail">Benjamin Clavié, <strong>Antoine
+															Chaffin</strong>, Griffin Adams</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Over the last few years, multi-vector retrieval methods,
+															spearheaded by ColBERT, have become an increasingly popular
+															approach to Neural IR. By storing representations at the
+															token level rather than at the document level, these methods
+															have demonstrated very strong retrieval performance,
+															especially in out-of-domain settings. However, the storage
+															and memory requirements necessary to store the large number
+															of associated vectors remain an important drawback,
+															hindering practical adoption. In this paper, we introduce a
+															simple clustering-based token pooling approach to
+															aggressively reduce the number of vectors that need to be
+															stored. This method can reduce the space & memory footprint
+															of ColBERT indexes by 50% with virtually no retrieval
+															performance degradation. This method also allows for further
+															reductions, reducing the vector count by 66%-to-75%, with
+															degradation remaining below 5% on a vast majority of
+															datasets. Importantly, this approach requires no
+															architectural change nor query-time processing, and can be
+															used as a simple drop-in during indexation with any
+															ColBERT-like model.
+														</p>
+
+
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@article{DBLP:journals/corr/abs-2409-14683, </br>
+																	&emsp;
+																	author = {Benjamin Clavi{\'{e}} and
+																	Antoine Chaffin and
+																	Griffin Adams}, </br> &emsp;
+																	title = {Reducing the Footprint of Multi-Vector
+																	Retrieval with Minimal Performance
+																	Impact via Token Pooling}, </br> &emsp;
+																	journal = {CoRR}, </br> &emsp;
+																	volume = {abs/2409.14683}, </br> &emsp;
+																	year = {2024}, </br> &emsp;
+																	url = {https://doi.org/10.48550/arXiv.2409.14683},
+																	</br> &emsp;
+																	doi = {10.48550/ARXIV.2409.14683}, </br> &emsp;
+																	eprinttype = {arXiv}, </br> &emsp;
+																	eprint = {2409.14683}, </br> &emsp;
+																	timestamp = {Tue, 15 Oct 2024 20:29:45 +0200}, </br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/journals/corr/abs-2409-14683.bib},
+																	</br> &emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org} </br> &emsp;
+																	}
+
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2409.14683"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://lightonai.github.io/pylate/documentation/retrieval/#colbert-retrieval">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://x.com/bclavie/status/1806345341270213041">
+																		<span class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://www.answer.ai/posts/colbert-pooling.html">
+																		<span class="fab fa-google link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2409.14683"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://www.answer.ai/posts/colbert-pooling.html"
+														class="button">
+														<span class="text">Read the blogpost</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-thesis" class="name has-popup-media">Multimodal Misinformation
+											Detection: Overcoming the Training Data Collection Challenge Through Data
+											Generation (2023)</a>
+										<div class="category"><strong>Antoine Chaffin</strong></div>
+										<!-- <a target="_blank" href="https://coria-taln-2023.sciencesconf.org/461410/document">
+											<span class="date">TALN 2023</span>
+										</a> -->
+										<a target="_blank"
+											href="https://theses.hal.science/tel-04395414/file/CHAFFIN_Antoine.pdf"><span
+												class="ai ai-hal link-button"></span>
+										</a>
+										<a target="_blank" href="./images/slides/Soutenance.pdf">
+											<span class="ion ion-images link-button"></span>
+										</a>
+									</div>
+									<div id="popup-thesis" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Multimodal Misinformation Detection: Overcoming the Training
+														Data Collection Challenge Through Data Generation (2023)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong></div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															To tackle the growing issue of misinformation, automated
+															fact-check tools are required. Because images are often
+															found within misinformation, these models need to be
+															multimodal. Collecting enough unbiased data to train the
+															models is challenging. In this thesis, we explore how
+															generative models can be used for discriminative tasks when
+															there is a lack of data. To tackle the sparse rewards issue
+															of textual GANs, we explore cooperative generation where the
+															generator is guided by an external model and present a novel
+															method based on the MCTS. We then use cooperative generation
+															to generate explanations of black-box models and conduct an
+															empirical study on the complexity/quality of different types
+															of models in the cooperative setup. Finally, we explore the
+															use of ground truth caption in a reinforcement learning
+															training of an image captioning model using rewards from a
+															cross-modal retriever. We conclude by discussing the
+															opportunities and risks of generative models in the context
+															of misinformation as well as watermarking.
+														</p>
+
+														<h1>Thesis defense (French)</h1>
+														<iframe width="560" height="315"
+															src="https://www.youtube.com/embed/aGwYQxaQkjA?si=BrYhi2r2Ou5D-UId"
+															title="YouTube video player" frameborder="0"
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+															referrerpolicy="strict-origin-when-cross-origin"
+															allowfullscreen></iframe>
+														<blockquote>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://theses.hal.science/tel-04395414/file/CHAFFIN_Antoine.pdf"><span
+																			class="ai ai-hal link-button"></span>
+																	</a>
+																	<!-- <a target="_blank" href="./images/posters/Therapy_poster.pdf">
+																			<span class="ion ion-image link-button"></span>
+																		</a> -->
+																	<a target="_blank"
+																		href="./images/slides/Soutenance.pdf">
+																		<span class="ion ion-images link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank"
+														href="ressources/These_Multimodal_Misinformation_Detection_Antoine_Chaffin_0412.pdf"
+														target="_blank" class="button">
+														<span class="text">Read the manuscript</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-wtfrl" class="name has-popup-media">Distinctive Image
+											Captioning: Leveraging Ground Truth Captions in CLIP Guided Reinforcement
+											Learning (2024)</a>
+										<div class="category"><strong>Antoine Chaffin</strong>, Vincent Claveau, Ewa
+											Kijak</div>
+										<a target="_blank" href="https://ieeexplore.ieee.org/document/10647426">
+											<span class="date">ICIP 2024</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2402.13936"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/NohTow/WTF-RL">
+											<span class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://x.com/antoine_chaffin/status/1851251655905366034">
+											<span class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="./images/posters/WTF-RL_poster.pdf">
+											<span class="ion ion-image link-button"></span>
+										</a>
+										<a target="_blank" href="./images/slides/WTF-RL.pdf">
+											<span class="ion ion-images link-button"></span>
+										</a>
+									</div>
+									<div id="popup-wtfrl" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Distinctive Image Captioning: Leveraging Ground Truth Captions
+														in CLIP Guided Reinforcement Learning (2024)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong>, Vincent
+														Claveau, Ewa Kijak</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Training image captioning models using teacher forcing
+															results in very generic samples, whereas more distinctive
+															captions can be very useful in retrieval applications or to
+															produce alternative texts describing images for
+															accessibility. Reinforcement Learning (RL) allows to use
+															cross-modal retrieval similarity score between the generated
+															caption and the input image as reward to guide the training,
+															leading to more distinctive captions. Recent studies show
+															that pre-trained cross-modal retrieval models can be used to
+															provide this reward, completely eliminating the need for
+															reference captions.
+															However, we argue in this paper that Ground Truth (GT)
+															captions can still be useful in this RL framework.
+															We propose a new image captioning model training strategy
+															that makes use of GT captions in different ways. Firstly,
+															they can be used to train a simple MLP discriminator that
+															serves as a regularization to prevent reward hacking and
+															ensures the fluency of generated captions, resulting in a
+															textual GAN setup extended for multimodal inputs. Secondly,
+															they can serve as additional trajectories in the RL
+															strategy, resulting in a teacher forcing loss weighted by
+															the similarity of the GT to the image. This objective acts
+															as an additional learning signal grounded to the
+															distribution of the GT captions. Thirdly, they can serve as
+															strong baselines when added to the pool of captions used to
+															compute the proposed contrastive reward to reduce the
+															variance of gradient estimate. Experiments on MS-COCO
+															demonstrate the interest of the proposed training strategy
+															to produce highly distinctive captions while maintaining
+															high writing quality.
+														</p>
+
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 2024 IEEE International
+																		Conference on Image Processing, ICIP 2024</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{DBLP:journals/corr/abs-2402-13936,
+																	</br> &emsp;
+																	author = {Antoine Chaffin and
+																	Vincent Claveau and Ewa Kijak}, </br> &emsp;
+																	booktitle={2024 IEEE International Conference on
+																	Image Processing (ICIP)}, </br> &emsp;
+																	title={Distinctive Image Captioning: Leveraging
+																	Ground Truth Captions in Clip Guided Reinforcement
+																	Learning}, </br> &emsp;
+																	volume={}, </br> &emsp;
+																	number={}, </br> &emsp;
+																	pages={2550-2556}, </br> &emsp;
+																	year = {2024}, </br> &emsp;
+																	doi={10.1109/ICIP51287.2024.10647426}</br> &emsp;
+																	}
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://ieeexplore.ieee.org/document/10647426">
+																		<span class="date">ICIP 2024</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2402.13936"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/NohTow/WTF-RL">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://x.com/antoine_chaffin/status/1851251655905366034">
+																		<span class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/WTF-RL_poster.pdf">
+																		<span class="ion ion-image link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/slides/WTF-RL.pdf">
+																		<span class="ion ion-images link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/abs/2402.13936"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/NohTow/WTF-RL" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-bricks" class="name has-popup-media">Three Bricks to Consolidate
+											Watermarks for Large Language Models (2023)</a>
+										<div class="category">Pierre Fernandez, <strong>Antoine Chaffin</strong>, Karim
+											Tit, Vivien Chappelier, Teddy Furon</div>
+
+										<a target="_blank" href="https://ieeexplore.ieee.org/document/10374576">
+											<span class="date">WIFS 2023</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2308.00113"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/NohTow/therapy">
+											<span class="fab fa-github link-button"></span>
+										</a>
+									</div>
+									<div id="popup-bricks" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Three Bricks to Consolidate Watermarks for Large Language Models
+														(2023)</h1>
+													<div class="blog-detail">Pierre Fernandez, <strong>Antoine
+															Chaffin</strong>, Karim Tit, Vivien Chappelier, Teddy Furon
+													</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															The task of discerning between generated and natural texts
+															is increasingly challenging.
+															In this context, watermarking emerges as a promising
+															technique for ascribing generated text to a specific model.
+															It alters the sampling generation process so as to leave an
+															invisible trace in the generated output, facilitating later
+															detection.
+															This research consolidates watermarks for large language
+															models based on three theoretical and empirical
+															considerations.
+															First, we introduce new statistical tests that offer robust
+															theoretical guarantees which remain valid even at low
+															false-positive rates (less than 10e-6).
+															Second, we compare the effectiveness of watermarks using
+															classical benchmarks in the field of natural language
+															processing, gaining insights into their real-world
+															applicability.
+															Third, we develop advanced detection schemes for scenarios
+															where access to the LLM is available, as well as multi-bit
+															watermarking.
+														</p>
+
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 2023 IEEE International
+																		Workshop on Information Forensics and Security,
+																		WIFS 2023</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+
+																	@inproceedings{DBLP:conf/wifs/FernandezCTCF23, </br>
+																	&emsp;
+																	author = {Pierre Fernandez and
+																	Antoine Chaffin and
+																	Karim Tit and
+																	Vivien Chappelier and
+																	Teddy Furon}, </br> &emsp;
+																	title = {Three Bricks to Consolidate Watermarks for
+																	Large Language Models}, </br> &emsp;
+																	booktitle = {{IEEE} International Workshop on
+																	Information Forensics and Security,
+																	{WIFS} 2023, N{\"{u}}rnberg, Germany, December 4-7,
+																	2023}, </br> &emsp;
+																	pages = {1--6}, </br> &emsp;
+																	publisher = {{IEEE}}, </br> &emsp;
+																	year = {2023}, </br> &emsp;
+																	url =
+																	{https://doi.org/10.1109/WIFS58808.2023.10374576},
+																	</br> &emsp;
+																	doi = {10.1109/WIFS58808.2023.10374576}, </br>
+																	&emsp;
+																	timestamp = {Tue, 09 Jan 2024 18:03:46 +0100}, </br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/conf/wifs/FernandezCTCF23.bib},</br>
+																	&emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org} </br>
+																	}
+
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																	  </a>  -->
+																</div>
+															</div>
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://ieeexplore.ieee.org/document/10374576">
+																		<span class="date">WIFS 2023</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2308.00113"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/facebookresearch/three_bricks">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<!-- <a target="_blank" href="./images/posters/Therapy_poster.pdf">
+																			<span class="ion ion-image link-button"></span>
+																		</a>
+																		<a target="_blank" href="./images/slides/Therapy_2023_Slides.pdf">
+																			<span class="ion ion-images link-button"></span>
+																		</a> -->
+																</div>
+															</div>
+														</blockquote>
+
+
+
+													</div>
+
+													<a target="_blank" href="https://arxiv.org/abs/2308.00113"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/facebookresearch/three_bricks"
+														class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-therapy" class="name has-popup-media">"Honey, Tell Me What's
+											Wrong'', Global Explainability of NLP Models through Cooperative Generation
+											(2023)</a>
+										<div class="category"><strong>Antoine Chaffin</strong>, Julien Delaunay</div>
+										<!-- <a target="_blank" href="https://coria-taln-2023.sciencesconf.org/461410/document">
+											<span class="date">TALN 2023</span>
+										</a> -->
+										<a target="_blank" href="https://aclanthology.org/2023.blackboxnlp-1.6/">
+											<span class="date">BlackboxNLP 2023</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2310.18063"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<!-- <a target="_blank" href="https://twitter.com/antoine_chaffin/status/1549063849189449730"><span class="fab fa-twitter link-button"></span> -->
+										<!-- </a> -->
+										<a target="_blank" href="./images/posters/Therapy_poster.pdf">
+											<span class="ion ion-image link-button"></span>
+										</a>
+										<a target="_blank" href="./images/slides/Therapy_2023_Slides.pdf">
+											<span class="ion ion-images link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/NohTow/therapy">
+											<span class="fab fa-github link-button"></span>
+										</a>
+									</div>
+									<div id="popup-therapy" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>"Honey, Tell Me What's Wrong'', Global Explainability of NLP
+														Models through Cooperative Generation (2023)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong>, Julien
+														Delaunay</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															The ubiquity of complex machine learning has raised the
+															importance of model-agnostic explanation algorithms. These
+															methods sample artificial instances by slightly perturbing
+															target instances and observing the variations in the model
+															decision. However, such methods require access to initial
+															samples and only provide explanations of the decision for
+															these. To tackle these problems, we propose Therapy, the
+															first global and model-agnostic explanation method adapted
+															to text which requires no input dataset. This method
+															generates texts following the distribution learned by a
+															classifier through cooperative generation. Because it does
+															not rely on initial samples, it allows to generate
+															explanations in cases where no data is available (e.g., for
+															confidentiality reasons). Moreover, conversely to existing
+															methods that combine multiple local explanations into a
+															global one, Therapy offers a global overview of the model
+															behavior on the input space. Our experiments show that
+															although using no input data to generate samples, Therapy
+															provides insightful information about features used by the
+															classifier that is competitive with the ones from methods
+															relying on input samples and outperforms them when input
+															samples are not specific to the studied model.
+														</p>
+
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 6th BlackboxNLP Workshop:
+																		Analyzing and Interpreting Neural Networks for
+																		NLP, BlackboxNLP 2023</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{chaffin-delaunay-2023-honey-tell,
+																	</br> &emsp;
+																	title = "{``}Honey, Tell Me What{'}s Wrong{''},
+																	Global Explanation of Textual Discriminative Models
+																	through Cooperative Generation", </br> &emsp;
+																	author = "Chaffin, Antoine and
+																	Delaunay, Julien", </br> &emsp;
+																	editor = "Belinkov, Yonatan and
+																	Hao, Sophie and
+																	Jumelet, Jaap and
+																	Kim, Najoung and
+																	McCarthy, Arya and
+																	Mohebbi, Hosein", </br> &emsp;
+																	booktitle = "Proceedings of the 6th BlackboxNLP
+																	Workshop: Analyzing and Interpreting Neural Networks
+																	for NLP",
+																	month = dec, </br> &emsp;
+																	year = "2023", </br> &emsp;
+																	address = "Singapore", </br> &emsp;
+																	publisher = "Association for Computational
+																	Linguistics", </br> &emsp;
+																	url =
+																	"https://aclanthology.org/2023.blackboxnlp-1.6",
+																	</br> &emsp;
+																	doi = "10.18653/v1/2023.blackboxnlp-1.6", </br>
+																	&emsp;
+																	pages = "76--88", </br>
+
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																	  </a>  -->
+																</div>
+															</div>
+
+
+
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<!-- <a target="_blank" href="https://coria-taln-2023.sciencesconf.org/461410/document">
+																			<span class="date">TALN 2023</span>
+																		</a> -->
+																	<a target="_blank"
+																		href="https://aclanthology.org/2023.blackboxnlp-1.6/">
+																		<span class="date">BlackboxNLP 2023</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2310.18063"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/NohTow/therapy">
+																		<span class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/Therapy_poster.pdf">
+																		<span class="ion ion-image link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/slides/Therapy_2023_Slides.pdf">
+																		<span class="ion ion-images link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+													</div>
+													<a target="_blank"
+														href="https://aclanthology.org/2023.blackboxnlp-1.6/"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/NohTow/therapy" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-gcn" class="name has-popup-media">Generative Cooperative
+											Networks for Natural Language Generation (2022)</a>
+										<div class="category">Sylvain Lamprier, Thomas Scialom, <strong>Antoine
+												Chaffin</strong>, Vincent Claveau, Ewa Kijak, Jacopo Staiano, Benjamin
+											Piwowarski</div>
+										<a target="_blank"
+											href="https://proceedings.mlr.press/v162/lamprier22a/lamprier22a.pdf">
+											<span class="date">ICML 2022</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2201.12320"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://twitter.com/antoine_chaffin/status/1549063849189449730"><span
+												class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="./images/posters/GCN_Poster.pdf"><span
+												class="ion ion-image link-button"></span>
+											<a target="_blank" href="./images/slides/GCN_ICML22_Slides.pdf"><span
+													class="ion ion-images link-button"></span>
+											</a>
+
+									</div>
+									<div id="popup-gcn" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Generative Cooperative Networks for Natural Language Generation
+														(2022)</h1>
+													<div class="blog-detail">Sylvain Lamprier, Thomas Scialom,
+														<strong>Antoine Chaffin</strong>, Vincent Claveau, Ewa Kijak,
+														Jacopo Staiano, Benjamin Piwowarski
+													</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Generative Adversarial Networks (GANs) have known a
+															tremendous success for many continuous generation tasks,
+															especially in the field of image generation. However, for
+															discrete outputs such as language, optimizing GANs remains
+															an open problem with many instabilities, as no gradient can
+															be properly back-propagated from the discriminator output to
+															the generator parameters. An alternative is to learn the
+															generator network via reinforcement learning, using the
+															discriminator signal as a reward, but such a technique
+															suffers from moving rewards and vanishing gradient problems.
+															Finally, it often falls short compared to direct
+															maximum-likelihood approaches. In this paper, we introduce
+															Generative Cooperative Networks, in which the discriminator
+															architecture is cooperatively used along with the generation
+															policy to output samples of realistic texts for the task at
+															hand. We give theoretical guarantees of convergence for our
+															approach, and study various efficient decoding schemes to
+															empirically achieve state-of-the-art results in two main NLG
+															tasks.
+														</p>
+														<h1>Recorded spotlight</h1>
+														<iframe width="560" height="315"
+															src="https://www.youtube.com/embed/fE_FBoldrgc"
+															title="YouTube video player" frameborder="0"
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+															allowfullscreen></iframe>
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 39th International
+																		Conference on Machine Learning, ICML 2022</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{DBLP:conf/icml/LamprierSCCKSP22,
+																	</br> &emsp;
+																	author = {Sylvain Lamprier and
+																	Thomas Scialom and
+																	Antoine Chaffin and
+																	Vincent Claveau and
+																	Ewa Kijak and
+																	Jacopo Staiano and
+																	Benjamin Piwowarski}, </br> &emsp;
+																	editor = {Kamalika Chaudhuri and
+																	Stefanie Jegelka and
+																	Le Song and
+																	Csaba Szepesv{\'{a}}ri and
+																	Gang Niu and
+																	Sivan Sabato}, </br> &emsp;
+																	title = {Generative Cooperative Networks for Natural
+																	Language Generation}, </br> &emsp;
+																	booktitle = {International Conference on Machine
+																	Learning, {ICML} 2022, 17-23 July
+																	2022, Baltimore, Maryland, {USA}}, </br> &emsp;
+																	series = {Proceedings of Machine Learning Research},
+																	</br> &emsp;
+																	volume = {162}, </br> &emsp;
+																	pages = {11891--11905}, </br> &emsp;
+																	publisher = {{PMLR}}, </br> &emsp;
+																	year = {2022}, </br> &emsp;
+																	url =
+																	{https://proceedings.mlr.press/v162/lamprier22a.html},
+																	</br> &emsp;
+																	timestamp = {Tue, 12 Jul 2022 17:36:52 +0200}, </br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/conf/icml/LamprierSCCKSP22.bib},
+																	</br> &emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org} </br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																	  </a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://proceedings.mlr.press/v162/lamprier22a/lamprier22a.pdf">
+																		<span class="date">ICML 2022</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2201.12320"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://twitter.com/antoine_chaffin/status/1549063849189449730"><span
+																			class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/GCN_Poster.pdf"><span
+																			class="ion ion-image link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+													</div>
+													<a target="_blank"
+														href="https://proceedings.mlr.press/v162/lamprier22a/lamprier22a.pdf"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-whichdisc" class="name has-popup-media">Which Discriminator for
+											Cooperative Text Generation? (2022)</a>
+										<div class="category"><strong>Antoine Chaffin</strong>, Thomas Scialom, Sylvain
+											Lamprier, Jacopo Staiano, Benjamin Piwowarski, Ewa Kijak, Vincent Claveau
+										</div>
+										<h1>
+											<a target="_blank" href="https://dl.acm.org/doi/10.1145/3477495.3531858">
+												<span class="date">SIGIR 2022</span>
+											</a>
+											<a target="_blank" href="https://arxiv.org/abs/2204.11586"><span
+													class="ai ai-arxiv link-button"></span>
+											</a>
+											<a target="_blank" href="https://github.com/NohTow/PPL-MCTS"><span
+													class="fab fa-github link-button"></span>
+											</a>
+											<a target="_blank"
+												href="https://twitter.com/antoine_chaffin/status/1523654571658072066?s=20&t=KXLHOHm38bjlm8nyRD-Bog"><span
+													class="fab fa-twitter link-button"></span>
+											</a>
+											<a target="_blank"
+												href="./images/slides/Which_Discriminator_TALN22.pdf"><span
+													class="ion ion-images link-button"></span>
+											</a>
+									</div>
+									<div id="popup-whichdisc" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Which Discriminator for Cooperative Text Generation? (2022)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong>, Thomas
+														Scialom, Sylvain Lamprier, Jacopo Staiano, Benjamin Piwowarski,
+														Ewa Kijak, Vincent Claveau</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Language models generate texts by successively predicting
+															probability distributions for next tokens given past ones. A
+															growing field of interest tries to leverage external
+															information in the decoding process so that the generated
+															texts have desired properties, such as being more natural,
+															non toxic, faithful, or having a specific writing style. A
+															solution is to use a classifier at each generation step,
+															resulting in a cooperative environment where the classifier
+															guides the decoding of the language model distribution
+															towards relevant texts for the task at hand. In this paper,
+															we examine three families of (transformer-based)
+															discriminators for this specific task of cooperative
+															decoding: bidirectional, left-to-right and generative ones.
+															We evaluate the pros and cons of these different types of
+															discriminators for cooperative generation, exploring
+															respective accuracy on classification tasks along with their
+															impact on the resulting sample quality and computational
+															performances. We also provide the code of a batched
+															implementation of the powerful cooperative decoding strategy
+															used for our experiments, the Monte Carlo Tree Search,
+															working with each discriminator for Natural Language
+															Generation.
+														</p>
+														<h1>Short presentation video</h1>
+														<iframe width="560" height="315"
+															src="https://www.youtube.com/embed/u5Xi2CaUsTs"
+															title="YouTube video player" frameborder="0"
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+															allowfullscreen></iframe>
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 45th International
+																		Conference on Research
+																		and Development in Information Retrieval, SIGIR
+																		2022</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{DBLP:conf/sigir/ChaffinSLSPKC22,
+																	</br> &emsp;
+																	author = {Antoine Chaffin and
+																	Thomas Scialom and
+																	Sylvain Lamprier and
+																	Jacopo Staiano and
+																	Benjamin Piwowarski and
+																	Ewa Kijak and
+																	Vincent Claveau}, </br> &emsp;
+																	editor = {Enrique Amig{\'{o}} and
+																	Pablo Castells and
+																	Julio Gonzalo and
+																	Ben Carterette and
+																	J. Shane Culpepper and
+																	Gabriella Kazai}, </br> &emsp;
+																	title = {Which Discriminator for Cooperative Text
+																	Generation?}, </br> &emsp;
+																	booktitle = {{SIGIR} '22: The 45th International
+																	{ACM} {SIGIR} Conference on Research
+																	and Development in Information Retrieval, Madrid,
+																	Spain, July 11 -
+																	15, 2022}, </br> &emsp;
+																	pages = {2360--2365}, </br> &emsp;
+																	publisher = {{ACM}}, </br> &emsp;
+																	year = {2022}, </br> &emsp;
+																	url = {https://doi.org/10.1145/3477495.3531858},
+																	</br> &emsp;
+																	doi = {10.1145/3477495.3531858}, </br> &emsp;
+																	timestamp = {Sat, 09 Jul 2022 09:25:34 +0200}, </br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/conf/sigir/ChaffinSLSPKC22.bib},
+																	</br> &emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org} </br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																		  </a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://dl.acm.org/doi/10.1145/3477495.3531858">
+																		<span class="date">SIGIR 2022</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2204.11586"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/NohTow/PPL-MCTS"><span
+																			class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://twitter.com/antoine_chaffin/status/1523654571658072066?s=20&t=KXLHOHm38bjlm8nyRD-Bog"><span
+																			class="fab fa-twitter link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<a target="_blank"
+														href="https://dl.acm.org/doi/10.1145/3477495.3531858"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/NohTow/PPL-MCTS/tree/main/teammates"
+														class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-PPLMCTS" class="name has-popup-media">PPL-MCTS: Constrained
+											Textual Generation Through Discriminator-Guided MCTS Decoding (2022)</a>
+										<div class="category"><strong>Antoine Chaffin</strong>, Vincent Claveau, Ewa
+											Kijak</div>
+										<a target="_blank" href="https://aclanthology.org/2022.naacl-main.215/">
+											<span class="date">NAACL 2022</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2109.13582"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/NohTow/PPL-MCTS"><span
+												class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://twitter.com/antoine_chaffin/status/1523654538237906946"><span
+												class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="./images/posters/PPL_MCTS_Poster.pdf"><span
+												class="ion ion-image link-button"></span>
+										</a>
+										<a target="_blank" href="./images/slides/PPL-MCTS_NAACL22_Slides.pdf"><span
+												class="ion ion-images link-button"></span>
+										</a>
+
+									</div>
+									<div id="popup-PPLMCTS" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>PPL-MCTS: Constrained Textual Generation Through
+														Discriminator-Guided MCTS Decoding (2022)</h1>
+													<div class="blog-detail"><strong>Antoine Chaffin</strong>, Vincent
+														Claveau, Ewa Kijak</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Language models generate texts by successively predicting
+															probability distributions for next tokens given past ones. A
+															growing field of interest tries to leverage external
+															information in the decoding process so that the generated
+															texts have desired properties, such as being more natural,
+															non toxic, faithful, or having a specific writing style. A
+															solution is to use a classifier at each generation step,
+															resulting in a cooperative environment where the classifier
+															guides the decoding of the language model distribution
+															towards relevant texts for the task at hand. In this paper,
+															we examine three families of (transformer-based)
+															discriminators for this specific task of cooperative
+															decoding: bidirectional, left-to-right and generative ones.
+															We evaluate the pros and cons of these different types of
+															discriminators for cooperative generation, exploring
+															respective accuracy on classification tasks along with their
+															impact on the resulting sample quality and computational
+															performances. We also provide the code of a batched
+															implementation of the powerful cooperative decoding strategy
+															used for our experiments, the Monte Carlo Tree Search,
+															working with each discriminator for Natural Language
+															Generation.
+														</p>
+														<h1>Recorded talk</h1>
+														<iframe width="560" height="315"
+															src="https://www.youtube.com/embed/eeJ63jqBJUg"
+															title="YouTube video player" frameborder="0"
+															allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+															allowfullscreen></iframe>
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 2022 Conference of the
+																		North American Chapter of the Association for
+																		Computational Linguistics: Human Language
+																		Technologies, NAACL-HLT 2022</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{DBLP:conf/naacl/ChaffinCK22, </br>
+																	&emsp;
+																	author = {Antoine Chaffin and
+																	Vincent Claveau and
+																	Ewa Kijak}, </br> &emsp;
+																	editor = {Marine Carpuat and
+																	Marie{-}Catherine de Marneffe and
+																	Iv{\'{a}}n Vladimir Meza Ru{\'{\i}}z}, </br> &emsp;
+																	title = {{PPL-MCTS:} Constrained Textual Generation
+																	Through Discriminator-Guided
+																	{MCTS} Decoding}, </br> &emsp;
+																	booktitle = {Proceedings of the 2022 Conference of
+																	the North American Chapter of
+																	the Association for Computational Linguistics: Human
+																	Language Technologies,
+																	{NAACL} 2022, Seattle, WA, United States, July
+																	10-15, 2022}, </br> &emsp;
+																	pages = {2953--2967}, </br> &emsp;
+																	publisher = {Association for Computational
+																	Linguistics}, </br> &emsp;
+																	year = {2022}, </br> &emsp;
+																	url =
+																	{https://doi.org/10.18653/v1/2022.naacl-main.215},
+																	</br> &emsp;
+																	doi = {10.18653/v1/2022.naacl-main.215}, </br>
+																	&emsp;
+																	timestamp = {Mon, 01 Aug 2022 16:28:04 +0200}, </br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/conf/naacl/ChaffinCK22.bib},
+																	</br> &emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org} </br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																	  </a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://aclanthology.org/2022.naacl-main.215/">
+																		<span class="date">NAACL 2022</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2109.13582"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/NohTow/PPL-MCTS"><span
+																			class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://twitter.com/antoine_chaffin/status/1523654538237906946"><span
+																			class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/PPL_MCTS_Poster.pdf"><span
+																			class="ion ion-image link-button"></span>
+																		<a>
+																			<a target="_blank"
+																				href="./images/slides/PPL-MCTS_NAACL22_Slides.pdf"><span
+																					class="ion ion-images link-button"></span>
+																			</a>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<a target="_blank"
+														href="https://aclanthology.org/2022.naacl-main.215/"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/NohTow/PPL-MCTS" class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-bloom" class="name has-popup-media">BLOOM: A 176B-Parameter
+											Open-Access Multilingual Language Model (2022)</a>
+										<div class="category">Big Science Project</div>
+										<a target="_blank" href="https://arxiv.org/abs/2211.05100"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://twitter.com/BigscienceW"><span
+												class="fab fa-twitter link-button"></span>
+										</a>
+									</div>
+									<div id="popup-bloom" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
+														(2022)</h1>
+													<div class="blog-detail">Big Science Project</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Large language models (LLMs) have been shown to be able to
+															perform new tasks based on a few demonstrations or natural
+															language instructions. While these capabilities have led to
+															widespread adoption, most LLMs are developed by
+															resource-rich organizations and are frequently kept from the
+															public. As a step towards democratizing this powerful
+															technology, we present BLOOM, a 176B-parameter open-access
+															language model designed and built thanks to a collaboration
+															of hundreds of researchers. BLOOM is a decoder-only
+															Transformer language model that was trained on the ROOTS
+															corpus, a dataset comprising hundreds of sources in 46
+															natural and 13 programming languages (59 in total). We find
+															that BLOOM achieves competitive performance on a wide
+															variety of benchmarks, with stronger results after
+															undergoing multitask prompted finetuning. To facilitate
+															future research and applications using LLMs, we publicly
+															release our models and code under the Responsible AI
+															License.
+														</p>
+														<blockquote>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@article{DBLP:journals/corr/abs-2211-05100,</br>
+																	&emsp;
+																	author = {Teven Le Scao and
+																	Angela Fan and
+																	Christopher Akiki and
+																	Ellie Pavlick and
+																	Suzana Ilic and
+																	Daniel Hesslow and
+																	Roman Castagn{\'{e}} and
+																	Alexandra Sasha Luccioni and
+																	Fran{\c{c}}ois Yvon and
+																	Matthias Gall{\'{e}} and
+																	Jonathan Tow and
+																	Alexander M. Rush and
+																	Stella Biderman and
+																	Albert Webson and
+																	Pawan Sasanka Ammanamanchi and
+																	Thomas Wang and
+																	Beno{\^{\i}}t Sagot and
+																	Niklas Muennighoff and
+																	Albert Villanova del Moral and
+																	Olatunji Ruwase and
+																	Rachel Bawden and
+																	Stas Bekman and
+																	Angelina McMillan{-}Major and
+																	Iz Beltagy and
+																	Huu Nguyen and
+																	Lucile Saulnier and
+																	Samson Tan and
+																	Pedro Ortiz Suarez and
+																	Victor Sanh and
+																	Hugo Lauren{\c{c}}on and
+																	Yacine Jernite and
+																	Julien Launay and
+																	Margaret Mitchell and
+																	Colin Raffel and
+																	Aaron Gokaslan and
+																	Adi Simhi and
+																	Aitor Soroa and
+																	Alham Fikri Aji and
+																	Amit Alfassy and
+																	Anna Rogers and
+																	Ariel Kreisberg Nitzav and
+																	Canwen Xu and
+																	Chenghao Mou and
+																	Chris Emezue and
+																	Christopher Klamm and
+																	Colin Leong and
+																	Daniel van Strien and
+																	David Ifeoluwa Adelani and
+																	et al.}, </br> &emsp;
+																	title = {{BLOOM:} {A} 176B-Parameter Open-Access
+																	Multilingual Language Model}, </br> &emsp;
+																	journal = {CoRR}, </br> &emsp;
+																	volume = {abs/2211.05100}, </br> &emsp;
+																	year = {2022}, </br> &emsp;
+																	url = {https://doi.org/10.48550/arXiv.2211.05100},
+																	</br> &emsp;
+																	doi = {10.48550/arXiv.2211.05100}, </br> &emsp;
+																	eprinttype = {arXiv}, </br> &emsp;
+																	eprint = {2211.05100}, </br> &emsp;
+																	timestamp = {Tue, 15 Nov 2022 15:45:12 +0100},</br>
+																	&emsp;
+																	biburl =
+																	{https://dblp.org/rec/journals/corr/abs-2211-05100.bib},
+																	</br> &emsp;
+																	bibsource = {dblp computer science bibliography,
+																	https://dblp.org}</br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																	  </a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2211.05100"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://twitter.com/BigscienceW"><span
+																			class="fab fa-twitter link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+
+													</div>
+													<a target="_blank" href="https://arxiv.org/pdf/2211.05100.pdf"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-artificialtext" class="name has-popup-media">Generating
+											artificial texts as substitution or complement of training data (2022)</a>
+										<div class="category">Vincent Claveau, <strong>Antoine Chaffin</strong>, Ewa
+											Kijak</div>
+										<a target="_blank"
+											href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.453.pdf">
+											<span class="date">LREC 2022</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2110.13016"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="./images/posters/LREC_2022_Poster.pdf"><span
+												class="ion ion-image link-button"></span>
+										</a>
+									</div>
+									<div id="popup-artificialtext" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Generating artificial texts as substitution or complement of
+														training data (2022)</h1>
+													<div class="blog-detail">Vincent Claveau, <strong>Antoine
+															Chaffin</strong>, Ewa Kijak</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															The quality of artificially generated texts has considerably
+															improved with the advent of transformers. The question of
+															using these models to generate learning data for supervised
+															learning tasks naturally arises. In this article, this
+															question is explored under 3 aspects: (i) are artificial
+															data an efficient complement? (ii) can they replace the
+															original data when those are not available or cannot be
+															distributed for confidentiality reasons? (iii) can they
+															improve the explainability of classifiers? Different
+															experiments are carried out on Web-related classification
+															tasks -- namely sentiment analysis on product reviews and
+															Fake News detection -- using artificially generated data by
+															fine-tuned GPT-2 models. The results show that such
+															artificial data can be used in a certain extend but require
+															pre-processing to significantly improve performance. We show
+															that bag-of-word approaches benefit the most from such data
+															augmentation.
+														</p>
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 2022 Language Resources
+																		and Evaluation Conference, LREC 2022</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@InProceedings{claveau-chaffin-kijak:2022:LREC,
+																	</br> &emsp;
+																	author = {Claveau, Vincent and Chaffin, Antoine and
+																	Kijak, Ewa}, </br> &emsp;
+																	title = {Generating Artificial Texts as Substitution
+																	or Complement of Training Data}, </br> &emsp;
+																	booktitle = {Proceedings of the Language Resources
+																	and Evaluation Conference}, </br> &emsp;
+																	month = {June}, </br> &emsp;
+																	year = {2022}, </br> &emsp;
+																	address = {Marseille, France}, </br> &emsp;
+																	publisher = {European Language Resources
+																	Association}, </br> &emsp;
+																	pages = {4260--4269}, </br> &emsp;
+																	abstract = {The quality of artificially generated
+																	texts has considerably improved with the advent of
+																	transformers. The question of using these models to
+																	generate learning data for supervised learning tasks
+																	naturally arises, especially when the original
+																	language resource cannot be distributed, or when it
+																	is small. In this article, this question is explored
+																	under 3 aspects: (i) are artificial data an
+																	efficient complement? (ii) can they replace the
+																	original data when those are not available or cannot
+																	be distributed for confidentiality reasons? (iii)
+																	can they improve the explainability of classifiers?
+																	Different experiments are carried out on
+																	classification tasks - namely sentiment analysis on
+																	product reviews and Fake News detection - using
+																	artificially generated data by fine-tuned GPT-2
+																	models. The results show that such artificial data
+																	can be used in a certain extend but require
+																	pre-processing to significantly improve performance.
+																	We also show that bag-of-words approaches benefit
+																	the most from such data augmentation.}, </br> &emsp;
+																	url = {https://aclanthology.org/2022.lrec-1.453}
+																	</br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																		  </a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.453.pdf">
+																		<span class="date">LREC 2022</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2110.13016"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/LREC_2022_Poster.pdf"><span
+																			class="ion ion-image link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<a target="_blank"
+														href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.453.pdf"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-6 col-t-6 col-m-12">
+								<div class="box-item">
+									<div class="desc">
+										<!-- <i class="fa-li fa fa-file-text-o"</i></i> -->
+										<a href="#popup-t0" class="name has-popup-media">Multitask Prompt Tuning Enables
+											Zero-Shot Task Generalization (2022)</a>
+										<div class="category">Victor Sanh, Albert Webson, Colin Raffel, Stephen H. Bach,
+											Lintang Sutawika, Zaid Alyafeai, <strong>Antoine Chaffin</strong>, Arnaud
+											Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu,
+											Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan
+											Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian
+											Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey,
+											Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma,
+											Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers,
+											Stella Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush</div>
+										<a target="_blank" href="https://openreview.net/forum?id=9Vrb9D0WI4">
+											<span class="date">ICLR 2022</span>
+										</a>
+										<a target="_blank" href="https://arxiv.org/abs/2110.08207"><span
+												class="ai ai-arxiv link-button"></span>
+										</a>
+										<a target="_blank" href="https://github.com/bigscience-workshop/t-zero"><span
+												class="fab fa-github link-button"></span>
+										</a>
+										<a target="_blank"
+											href="https://twitter.com/BigscienceW/status/1450084548872744961"><span
+												class="fab fa-twitter link-button"></span>
+										</a>
+										<a target="_blank" href="./images/posters/T0_Poster.pdf"><span
+												class="ion ion-image link-button"></span>
+										</a>
+										<!-- https://bigscience.huggingface.co/blog/t0 -->
+
+
+									</div>
+									<div id="popup-t0" class="popup-box mfp-fade mfp-hide">
+										<div class="content">
+											<!-- <div class="image">
+												<img src="images/works/got.jpg" alt="">
+											</div> -->
+											<div class="desc">
+												<div class="post-box noimg">
+													<h1>Multitask Prompt Tuning Enables Zero-Shot Task Generalization
+														(2022)</h1>
+													<div class="blog-detail">Victor Sanh, Albert Webson, Colin Raffel,
+														Stephen H. Bach, Lintang Sutawika, Zaid Alyafeai,
+														<strong>Antoine Chaffin</strong>, Arnaud Stiegler, Teven Le
+														Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish
+														Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim,
+														Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang,
+														Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng
+														Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala
+														Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault
+														Fevry, Jason Alan Fries, Ryan Teehan, Tali Bers, Stella
+														Biderman, Leo Gao, Thomas Wolf, Alexander M. Rush
+													</div>
+													<div class="blog-content">
+														<h1>Abstract</h1>
+														<p>
+															Large language models have recently been shown to attain
+															reasonable zero-shot generalization on a diverse set of
+															tasks (Brown et al., 2020). It has been hypothesized that
+															this is a consequence of implicit multitask learning in
+															language models’ pretraining (Radford et al., 2019). Can
+															zero-shot generalization instead be directly induced by
+															explicit multitask learning? To test this question at scale,
+															we develop a system for easily mapping any natural language
+															tasks into a human-readable prompted form. We convert a
+															large set of supervised datasets, each with multiple prompts
+															with diverse wording. These prompted datasets allow for
+															benchmarking the ability of a model to perform completely
+															unseen tasks specified in natural language. We fine-tune a
+															pretrained encoder-decoder model (Raffel et al., 2020;
+															Lester et al., 2021) on this multitask mixture covering a
+															wide variety of tasks. The model attains strong zero-shot
+															performance on several datasets, often outperforming models
+															16× its size. Further, our model attains strong performance
+															on a subset of tasks from the BIG-Bench benchmark,
+															outperforming models 6× its size. All trained models are
+															available at https://github.com/bigscience-workshop/t-zero,
+															and all prompts are available at
+															https://github.com/bigscience-workshop/promptsource.
+														</p>
+														<blockquote>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Venue
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10">
+																	In <em>Proceedings of the 2022 International
+																		Conference on Learning Representations, ICLR
+																		2022</em>
+																</div>
+															</div>
+															<div class="row ref ref_link">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	BibTeX
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 references">
+																	@inproceedings{sanh2022multitask, </br> &emsp;
+																	title={Multitask Prompted Training Enables Zero-Shot
+																	Task Generalization}, </br> &emsp;
+																	author={Victor Sanh and Albert Webson and Colin
+																	Raffel and Stephen Bach and Lintang Sutawika and
+																	Zaid Alyafeai and Antoine Chaffin and Arnaud
+																	Stiegler and Arun Raja and Manan Dey and M Saiful
+																	Bari and Canwen Xu and Urmish Thakker and Shanya
+																	Sharma Sharma and Eliza Szczechla and Taewoon Kim
+																	and Gunjan Chhablani and Nihal Nayak and Debajyoti
+																	Datta and Jonathan Chang and Mike Tian-Jian Jiang
+																	and Han Wang and Matteo Manica and Sheng Shen and
+																	Zheng Xin Yong and Harshit Pandey and Rachel Bawden
+																	and Thomas Wang and Trishala Neeraj and Jos Rozen
+																	and Abheesht Sharma and Andrea Santilli and Thibault
+																	Fevry and Jason Alan Fries and Ryan Teehan and Teven
+																	Le Scao and Stella Biderman and Leo Gao and Thomas
+																	Wolf and Alexander M Rush}, </br> &emsp;
+																	booktitle={International Conference on Learning
+																	Representations}, </br> &emsp;
+																	year={2022}, </br> &emsp;
+																	url={https://openreview.net/forum?id=9Vrb9D0WI4}
+																	</br>
+																	}
+																	<!-- <a><span class="fa fa-copy copy-ref link-button"> Copy</span>
+																			</a>  -->
+																</div>
+															</div>
+															<div class="row ref">
+																<div class="col col-d-2 col-t-2 col-m-2 ref_title">
+																	Links
+																</div>
+																<div class="col col-d-10 col-t-10 col-m-10 ref_link">
+																	<a target="_blank"
+																		href="https://openreview.net/forum?id=9Vrb9D0WI4">
+																		<span class="date">ICLR 2022</span>
+																	</a>
+																	<a target="_blank"
+																		href="https://arxiv.org/abs/2110.08207"><span
+																			class="ai ai-arxiv link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://github.com/bigscience-workshop/t-zero"><span
+																			class="fab fa-github link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="https://twitter.com/BigscienceW/status/1450084548872744961"><span
+																			class="fab fa-twitter link-button"></span>
+																	</a>
+																	<a target="_blank"
+																		href="./images/posters/T0_Poster.pdf"><span
+																			class="ion ion-image link-button"></span>
+																	</a>
+																</div>
+															</div>
+														</blockquote>
+													</div>
+													<a target="_blank" href="https://openreview.net/forum?id=9Vrb9D0WI4"
+														target="_blank" class="button">
+														<span class="text">Read the paper</span>
+														<span class="arrow"></span>
+													</a>
+													<a target="_blank" style="float:right"
+														href="https://github.com/bigscience-workshop/t-zero"
+														class="button">
+														<span class="text">Get the code</span>
+														<span class="arrow"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Contacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Contact me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Adress . . . . .</strong> Nancy, France</li>
+										<li><strong>Email . . . . .</strong> <a
+												href="mailto:antoine@chaffin.fr">antoine@chaffin.fr</a></li>
+										<li><strong>Twitter </strong> <a
+												href="https://twitter.com/antoine_chaffin/">antoine_chaffin</a>
+										</li>
+										<li><strong>Linkedin </strong> <a
+												href="https://www.linkedin.com/in/antoine-chaffin/">Antoine Chaffin</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+					<!--
+						Contact Form
+					-->
+					<!-- <div class="content contacts"> -->
+
+					<!-- title -->
+					<!-- <div class="title">Contact form</div> -->
+
+					<!-- content -->
+					<!-- <div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="contact_form">
+									<form id="cform" method="post">
+										<div class="row">
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="name" placeholder="Name" />
+												</div>
+											</div>
+											<div class="col col-d-6 col-t-6 col-m-12">
+												<div class="group-val">
+													<input type="text" name="email" placeholder="Email adress" />
+												</div>
+											</div>
+											<div class="col col-d-12 col-t-12 col-m-12">
+												<div class="group-val">
+													<textarea name="message" placeholder="Your message"></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="align-left">
+											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
+												<span class="text">Send the message</span>
+												<span class="arrow"></span>
+											</a>
+										</div>
+									</form>
+									<div class="alert-success">
+										<p>Your message has been sent.</p>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div> -->
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- <div class="s_overlay"></div>
+		<div class="content-sidebar">
+			<div class="sidebar-wrap search-form">
+				<aside id="secondary" class="widget-area">
+					<section id="search-2" class="widget widget_search">
+						<label>
+							<span class="screen-reader-text">Search for:</span>
+							<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+						</label>
+						<input type="submit" class="search-submit" value="Search">
+					</section>
+					<section class="widget widget_recent_entries">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-word">Recent</span> Posts</span>
+						</h2>
+						<ul>
+							<li>
+								<a href="#">Creativity Is More Than</a>
+							</li>
+							<li>
+								<a href="#">Designing the perfect</a>
+							</li>
+							<li>
+								<a href="#">Music Player Design</a>
+							</li>
+							<li>
+								<a href="#">A Song And Dance Act</a>
+							</li>
+							<li>
+								<a href="#">By spite about do of allow</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_recent_comments">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-word">Recent</span> Comments</span>
+						</h2>
+						<ul>
+							<li class="recentcomments">
+								<span class="comment-author-link">JOHN SMITH</span> on <a href="#">Creativity Is More Than</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">ADAM SMITH</span> on <a href="#">Creativity Is More Than</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">admin</span> on <a href="#">Designing the perfect</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">admin</span> on <a href=#">Designing the perfect</a>
+							</li>
+							<li class="recentcomments">
+								<span class="comment-author-link">James</span> on <a href="#">Designing the perfect</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_archive">
+						<h2 class="widget-title">
+							<span class="widget-title-span">
+								<span class="first-letter">Archives</span>
+							</span>
+						</h2>
+						<ul>
+							<li>
+								<a href="#">November 2018</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_categories">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-letter">Categories</span></span>
+						</h2>
+						<ul>
+							<li class="cat-item cat-item-2">
+								<a href="#">Design</a>
+							</li>
+							<li class="cat-item cat-item-3">
+								<a href="#">Music</a>
+							</li>
+						</ul>
+					</section>
+					<section class="widget widget_meta">
+						<h2 class="widget-title">
+							<span class="widget-title-span"><span class="first-letter">Meta</span></span>
+						</h2>
+						<ul>
+							<li><a href="#">Log in</a></li>
+							<li><a href="#">Entries feed</a></li>
+							<li><a href="#">Comments feed</a></li>
+							<li><a href="#">WordPress.org</a></li>
+						</ul>
+					</section>
+				</aside>
+			</div>
+			<span class="close"></span>
+		</div>
+
+	</div> -->
+
+		<!--
+		jQuery Scripts
+	-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<script src="js/jquery.magnific-popup.js"></script>
+		<script src="js/imagesloaded.pkgd.js"></script>
+		<script src="js/isotope.pkgd.js"></script>
+		<script src="js/jquery.slimscroll.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="https://use.fontawesome.com/8da76d029b.js"></script>
+
+		<!--
+		Google map api
+	-->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
+
+		<!--
+		Main Scripts
+	-->
+		<script src="js/scripts.js"></script>
+
+</body>
+
+</html>

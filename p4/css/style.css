@@ -1,0 +1,55 @@
+#plateau {
+    border: 3px blue outset;
+    background-color: blue;
+	width:100%;
+}
+#plateau td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px blue inset;
+    border-radius: 2cm;
+    background-color: white;
+    cursor: pointer;
+}
+
+#plateau td.joueur1 {
+    background-color: red;
+}
+#plateau td.joueur2 {
+    background-color: green;
+}
+#wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-40px;
+	width:595px;
+	text-align:center;
+}
+#wrapper h3{
+	font-size:58px;
+	font-family:"Sudden Desires", Arial;
+	color:#009688ad;
+	margin-bottom:30px;
+}
+#wrapper h2{
+	font-size:37px;
+	font-family:"Sudden Desires", Arial;
+	color:#009688ad;
+}
+@font-face{
+	font-family : 'Sudden Desires';
+	src: url('font/Sudden Desires.ttf');
+}
+#wrapper button{
+    margin-top: 9px;
+    width: 32%;
+    background-color: #1a991abd;
+    border-radius: 45%;
+    font-family: "Sudden Desires", Arial;
+    height: 50px;
+    font-size: 22px;
+}
+}
+@media screen

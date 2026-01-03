@@ -1,0 +1,21 @@
+#listColor li{
+    display: inline-block;
+}
+
+#listColor li a{
+    height:26px;
+    width:26px;
+    display:block;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+}
+#settingMenu span, #settingMenu a{
+    font-size:30px;
+}
+#settingMenu, #toggleSetting, #closeSetting{
+    border-radius:4px 0 0 4px;
+    background: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05)
+}
+
